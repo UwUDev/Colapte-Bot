@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import me.uwu.colapte.commands.admin.BanCommand;
+import me.uwu.colapte.commands.admin.DecancerCommand;
 import me.uwu.colapte.commands.admin.ForceXPCommand;
 import me.uwu.colapte.commands.admin.PurgeCommand;
 import me.uwu.colapte.commands.fun.HeyCommand;
@@ -28,6 +29,7 @@ public class CommandManager {
         commands.add(new HelpCommand());
         commands.add(new TestCommand());
         commands.add(new HaxCommand());
+        commands.add(new CommandsCommand());
         commands.add(new SelfbotCommand());
         commands.add(new PdpCommand());
         commands.add(new PingCommand());
@@ -37,6 +39,7 @@ public class CommandManager {
         commands.add(new BanCommand());
         commands.add(new PurgeCommand());
         commands.add(new ForceXPCommand());
+        commands.add(new DecancerCommand());
         // USER
         commands.add(new GetLevelCommand());
         // NSFW
